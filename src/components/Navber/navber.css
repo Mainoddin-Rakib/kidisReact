@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&family=Quicksand:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Playpen Sans", cursive;
+}
+
+p {
+    margin: 0;
+    padding-bottom: 5px;
+}
+ul{
+    margin: 0;
+}
+
+.navber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.menu {
+    padding-left: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu ul li a {
+    padding-right: 38px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1F1E44;
+
+}
+
+.nav-contact {
+    display: flex;
+    width: max-content;
+    background-color: #F6593A;
+    padding: 30px 100px 30px 49px;
+    align-items: center;
+
+}
+
+.nav-contact-number {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    text-align: left;
+}
+.nav-contact-number p{
+    font-size: 12px;
+}
+.nav-contact_social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-contact-icon{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.nav-social-icon{
+    width: 30px;
+    height: 30px;
+    background: rgba(000, 000, 000, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    margin: 0 15px;
+}
