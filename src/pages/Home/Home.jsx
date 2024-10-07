@@ -9,9 +9,10 @@ import { opportunitisData } from './../../assets/data/opportunitis';
 import { testimonialData } from './../../assets/data/testimonials';
 import { programsData } from './../../assets/data/programs';
 import { teachersData } from './../../assets/data/teachers';
+import { blogsData } from './../../assets/data/blogs';
 import About from '../../components/Common/About/About';
 import Opportunity from '../../components/Home/Opportunity/Opportunity';
-import Testimonial from '../../components/Common/Testimonial/Testimonial';
+import Testimonial from '../../components/Home/Testimonial/Testimonial';
 import Service from './../../components/Home/Service/Service'
 import Program from '../../components/Home/Programs/Program';
 import Explore from '../../components/Home/Explore/Explore';
@@ -66,7 +67,7 @@ const Home = () => {
 
             <Event/>
 
-            <Blog/>
+            <Blog blogs={blogsData}/>
 
         </>
     );

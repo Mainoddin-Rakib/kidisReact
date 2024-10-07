@@ -1,9 +1,23 @@
 import React from 'react';
+import teacherShape1 from './../../../assets/images/animation-shape/teacher-shape1.png'
+import teacherShape2 from './../../../assets/images/animation-shape/teacher-shape2.png'
+import teacherShape3 from './../../../assets/images/animation-shape/teacher-shape3.png'
+import teacherShape4 from './../../../assets/images/animation-shape/teacher-shape4.png'
+import teacherShape5 from './../../../assets/images/animation-shape/teacher-shape5.png'
+import teacherShape6 from './../../../assets/images/animation-shape/teacher-shape6.png'
 
 const Teacher = ({ teachers }) => {
     return (
         <>
             <section className="teacher">
+                <div className="teacher-shape-slider">
+                    <img className="teacher-shape teacher-shape1" src={teacherShape1} alt="" />
+                    <img className="teacher-shape teacher-shape2" src={teacherShape2} alt="" />
+                    <img className="teacher-shape teacher-shape3" src={teacherShape3} alt="" />
+                    <img className="teacher-shape teacher-shape4" src={teacherShape4} alt="" />
+                    <img className="teacher-shape teacher-shape5" src={teacherShape5} alt="" />
+                    <img className="teacher-shape teacher-shape6" src={teacherShape6} alt="" />
+                </div>
                 <div className="container">
                     <div className="section-title teacher-heading-title">
                         <h4 className="teacher-title">

@@ -1,17 +1,24 @@
 import React from 'react';
-// import opportunityImg1 from './../../../assets/images/oportunity/opportunity1.png'
-// import opportunityImg2 from './../../../assets/images/oportunity/opportunity2.png'
-// import opportunityImg3 from './../../../assets/images/oportunity/opportunity3.png'
-// import opportunityImg4 from './../../../assets/images/oportunity/opportunity4.png'
-// import opportunityImg5 from './../../../assets/images/oportunity/opportunity5.png'
-// import opportunityImg6 from './../../../assets/images/oportunity/opportunity6.png'
-
+import opportunityShape from './../../../assets/images/animation-shape/opportunity-two-shape.png'
+import opportunityShape2 from './../../../assets/images/animation-shape/opportunity-two-shape2.png'
+import opportunityShape3 from './../../../assets/images/animation-shape/opportunity-two-shape3.png'
+import opportunityShape4 from './../../../assets/images/animation-shape/opportunity-two-shape4.png'
 
 
 const Opportunity = ({ opportunitis }) => {
     return (
         <>
             <section className="opportunity">
+                <div className="opportunity-shape-slider">
+                    <img className="opportunity-shape opportunity-shape1"
+                        src={opportunityShape} alt="" />
+                    <img className="opportunity-shape opportunity-shape2"
+                        src={opportunityShape2} alt="" />
+                    <img className="opportunity-shape opportunity-shape3"
+                        src={opportunityShape3} alt="" />
+                    <img className="opportunity-shape opportunity-shape4"
+                        src={opportunityShape4} alt="" />
+                </div>
                 <div className="container">
                     <div className="section-title opportunity-heading-title">
                         <h4>

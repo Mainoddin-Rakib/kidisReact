@@ -1,8 +1,21 @@
 import React from 'react';
+import testimonialShape1 from './../../../assets/images/animation-shape/testimonial-shape1.png'
+import testimonialShape2 from './../../../assets/images/animation-shape/testimonial-shape2.png'
+import testimonialShape3 from './../../../assets/images/animation-shape/testimonial-shape3.png'
+
+
 const Testimonial = ({ testimonials }) => {
     return (
         <>
             <section className="testimonial-two">
+                <div className="testimonial-two-shape-slider">
+                    <img className="testimonial-two-shape testimonial-two-shape1" src={testimonialShape1}
+                        alt="" />
+                    <img className="testimonial-two-shape testimonial-two-shape2" src={testimonialShape2}
+                        alt="" />
+                    <img className="testimonial-two-shape testimonial-two-shape3" src={testimonialShape3}
+                        alt="" />
+                </div>
                 <div className="container">
                     <div className="section-title testimonial-two-title">
                         <h4>Testimonial</h4>

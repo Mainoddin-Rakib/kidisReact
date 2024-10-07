@@ -8,13 +8,13 @@ const Service = ({ services }) => {
                     {
                         services?.map((service, index) => (
                             <div className="col-lg-3" key={index}>
-                                <div className={`service-two_service-cart-wrapper`}>
+                                <div className={`service-cart-wrapper`}>
                                     <img src={service?.image} alt="" />
-                                    <div className={`service-two_service-cart-shape ${service?.class}`}>
-                                        <div className="service-two_service-icon">
+                                    <div className={`service-cart-shape ${service?.class}`}>
+                                        <div className="service-icon">
                                             <a href=""> <img src={service?.icon} alt="" /></a>
                                         </div>
-                                        <div className="service-two_service-cart-title">
+                                        <div className="service-cart-title">
                                             <h4>{service?.title}</h4>
                                             <p>{service?.dsc}</p>
                                         </div>

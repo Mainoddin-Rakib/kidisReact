@@ -1,8 +1,16 @@
 import React from 'react';
+import programShape from './../../../assets/images/animation-shape/program-shape.png'
+import programShape2 from './../../../assets/images/animation-shape/program-shape2.png'
+import programShape3 from './../../../assets/images/animation-shape/program-shape3.png'
 const Program = ({ programs }) => {
     return (
         <>
             <section className="programs-two">
+                <div className="programs-shape-slider">
+                    <img className="program-two-shape program-two-shape1" src={programShape} alt="" />
+                    <img className="program-two-shape program-two-shape2" src={programShape2} alt="" />
+                    <img className="program-two-shape program-two-shape3" src={programShape3} alt="" />
+                </div>
                 <div className="container">
                     <div className="row align-items-center ">
                         <div className="col-lg-6">
@@ -27,8 +35,9 @@ const Program = ({ programs }) => {
                                         Ipsum
                                         has
                                         been the industry's Lorem Ipsum </p>
-                                    <button className="hero-btn">Get Started</button>
+                                      
                                 </div>
+                                <a href="" className='kidish-btn'><span>Get Started</span></a>
                             </div>
                         </div>
                         <div className="col-lg-6 px-2">
