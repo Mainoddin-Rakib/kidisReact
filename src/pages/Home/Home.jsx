@@ -1,4 +1,3 @@
-import React from 'react';
 import Button from '../../components/Button/Button';
 import heroShape from './../../assets/images/animation-shape/hero-shape.png'
 import heroShape2 from './../../assets/images/animation-shape/hero-shape-2.png'
@@ -20,10 +19,29 @@ import Teacher from '../../components/Home/Teacher/Teacher';
 import Gallery from '../../components/Home/Gallery/Gallery';
 import Event from '../../components/Home/Event/Event';
 import Blog from '../../components/Home/Blog/Blog';
+import { MdLightMode } from "react-icons/md";
+import { useEffect, useState } from 'react';
+import { MdDarkMode } from "react-icons/md";
+
+
 
 
 
 const Home = () => {
+
+    const [themeMode, setThemeMode] = useState(false);
+
+    const handleDarkClick = () => {
+        setThemeMode(!themeMode)
+    }
+
+    useEffect(() => {
+        if (themeMode == true) {
+            document.body.classList.add("dark")
+        } else {
+            document.body.classList.remove("dark")
+        }
+    })
     return (
         <>
             <div className="hero-bg">
@@ -32,6 +50,10 @@ const Home = () => {
                     <img className='hero-shape hero-shape-2' src={heroShape2} alt="" />
                     <img className='hero-shape hero-shape-3' src={heroShape3} alt="" />
                     <img className='hero-shape hero-shape-4' src={heroShape4} alt="" />
+                    <div className="kidish-btn dark-theme-icon" onClick={handleDarkClick}>
+                        <span>{themeMode?<MdLightMode />:<MdDarkMode />}</span>
+
+                    </div>
                 </div>
                 <div className="container">
                     <div className="hero-wrapper">
@@ -57,17 +79,17 @@ const Home = () => {
 
             <Testimonial testimonials={testimonialData} />
 
-            <Program programs={programsData}/>
+            <Program programs={programsData} />
 
-            <Explore/>
+            <Explore />
 
-            <Teacher teachers={teachersData}/>
+            <Teacher teachers={teachersData} />
 
-            <Gallery/>
+            <Gallery />
 
-            <Event/>
+            <Event />
 
-            <Blog blogs={blogsData}/>
+            <Blog blogs={blogsData} />
 
         </>
     );

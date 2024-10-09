@@ -5,14 +5,15 @@ import Navber from './components/Common/Navber/Navber';
 import Footer from './components/Common/Footer/Footer';
 function App() {
 
+
   return (
     <>
       <BrowserRouter>
         <Navber />
         <Routes>
-          <Route path="/" element={<Home/>} />
+          <Route path="/" element={<Home />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
 
     </>

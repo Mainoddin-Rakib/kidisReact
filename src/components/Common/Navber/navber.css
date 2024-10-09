@@ -1,5 +1,3 @@
-
-
 body {
     margin: 0;
     padding: 0;
@@ -14,6 +12,30 @@ body {
     padding-left: 100px;
     background-color: #C7CAD2;
     border-bottom: 1px solid #fff;
+    z-index: 999;
+
+}
+
+ .sticky {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation-name: sticky;
+    animation: slideDown 0.35s ease-out;
+    overflow: hidden;
+    background: #C7CAD2;
+    /* border: none; */
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
 }
 
 .nav-menu {
@@ -62,7 +84,7 @@ body {
 
 .nav-contact-number p {
     font-size: 12px;
-    margin:  5px;
+    margin: 5px;
 
 
 }

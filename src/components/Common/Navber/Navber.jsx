@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react';
+import React, { useState } from 'react';
 import './navber.css'
 import LogoImg from '../../../assets/images/Logo.png'
 import { PiPhoneCallFill } from "react-icons/pi";
@@ -8,9 +8,22 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 
 const Navber = () => {
+const [navber, setNavber] = useState(false)
+
+
+
+const stickyNavber = () => {
+    if(window.scrollY >= 90){
+        setNavber(true)
+    }else{
+        setNavber(false)
+    }
+}
+
+window.addEventListener('scroll', stickyNavber)
     return (
         <>
-            <section className='navber'>
+            <section className={navber ? 'navber sticky' : 'navber'}>
                 <div className="nav-menu">
                     <div className="logo">
                         <img src={LogoImg} alt="" />
