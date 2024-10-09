@@ -3,7 +3,7 @@ import about1 from '../../../assets/images/about/about-1.jpg'
 import about2 from '../../../assets/images/about/about-2.png'
 import about3 from '../../../assets/images/about/about-3.png'
 import about4 from '../../../assets/images/about/about-4.png'
-import aboutShape from '../../../assets/images/animation-shape/about-shape.jpg'
+import aboutShape from '../../../assets/images/animation-shape/about-shape.png'
 
 
 

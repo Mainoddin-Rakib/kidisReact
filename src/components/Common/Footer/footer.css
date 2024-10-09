@@ -4,10 +4,16 @@
     background-repeat: no-repeat;
     background-position: top center;
     overflow: hidden;
-    border-bottom: 1px solid #EBEBEB;
     position: relative;
+    transition: 0.5s;
 }
 
+.dark .footer {
+    background: url('../../../assets/images/footer/dark-footer-bg.jpg');
+    transition: 0.5s;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
 
 
 .footer-cart-wrapper {
@@ -27,9 +33,11 @@
     display: flex;
     justify-content: space-between;
 }
-.main-footer-left{
+
+.main-footer-left {
     padding-top: 10px;
 }
+
 .main-footer-left img {
     margin-bottom: 25px;
 }

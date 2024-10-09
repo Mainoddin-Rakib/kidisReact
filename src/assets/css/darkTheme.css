@@ -1,0 +1,100 @@
+/* hero section */
+
+
+.dark .hero-bg {
+    background: url('./../../assets/images/bg/Header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+/* service css */
+
+
+.dark .service {
+    background-color: #0E0919;
+    transition: 0.5s;
+}
+
+/* about section */
+
+.dark .about {
+    background-color: #0E0919;
+    transition: 0.5s;
+}
+
+
+/* opportunity */
+
+.dark .opportunity {
+    background: url('./../../assets/images/oportunity/dark-opportunity-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+
+/* testimonial section*/
+
+.dark .testimonial-two {
+    background-color: #0E0919;
+    transition: 0.5s;
+}
+
+/*============ Programs-two ============*/
+
+
+.dark .programs-two {
+    background-color: #181028;
+    transition: 0.5s;
+}
+
+
+/*============ Explore-two ============*/
+
+.dark .explore-two {
+    background: url('./../../assets/images/Explore/dark-explore-bg.jpg');
+    background-repeat: no-repeat;
+    height: 434px;
+    padding-top: 110px;
+    z-index: 3;
+    transition: 0.5s;
+}
+
+/* teacher */
+
+.dark .teacher {
+    background-color: #0E0919;
+    border-bottom: 1px solid #1F1E44;
+    transition: 0.5s;
+
+
+}
+
+/* gallery */
+
+.dark .gallery-two {
+    background-color: #0E0919;
+    transition: 0.5s;
+
+}
+
+/* evet */
+
+.dark .event {
+    background-color: #0E0919;
+    transition: 0.5s;
+
+}
+
+/* blog */
+.dark .blog {
+    background-color: #0E0919;
+    transition: 0.5s;
+}
