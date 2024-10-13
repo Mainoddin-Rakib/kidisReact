@@ -14,7 +14,9 @@
     background-repeat: no-repeat;
     background-position: top center;
 }
-
+.footer-navmenu {
+    padding-right: 45px;
+}
 
 .footer-cart-wrapper {
     width: 100%;
@@ -32,10 +34,6 @@
     left: 0;
     display: flex;
     justify-content: space-between;
-}
-
-.main-footer-left {
-    padding-top: 10px;
 }
 
 .main-footer-left img {
@@ -73,7 +71,7 @@
 }
 
 .footer-navmenu-title h3 {
-    font-size: 24px;
+    font-size: 22px;
     color: #fff;
     margin: 0;
     padding-bottom: 25px;

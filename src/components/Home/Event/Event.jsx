@@ -37,6 +37,8 @@ const Event = () => {
                                 </div>
                                 <div className="event-desc">
                                     <h2 className='event-desc-title'>Your Ultimate Guide to Adventure, <br /> Fun, and Learning with Your Teachers</h2>
+
+                                    <hr />
                                     <div className="event-desc-list">
                                         <span>
                                             <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -95,7 +97,7 @@ const Event = () => {
                                 <div className="event-item">
                                     <div className="event-desc-two">
                                         <div className="event-two-sub-title">
-                                            <p>baby</p>
+                                            <p>School</p>
                                         </div>
                                         <h2 className='event-desc-title'>Your Ultimate Guide to Adventure, Fun, and....</h2>
                                         <div className="event-desc-list">
@@ -124,11 +126,9 @@ const Event = () => {
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
-
                 </div>
             </section>
         </>

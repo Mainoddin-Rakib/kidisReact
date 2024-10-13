@@ -462,11 +462,15 @@ body {
     font-weight: bolder;
     padding-bottom: 20px;
     font-family: "Playpen Sans", cursive;
+    transition: 0.5s;
+
 
 }
 
 .about-title p {
     padding-bottom: 30px;
+    transition: 0.5s;
+
 }
 
 .about-title h2 span {
@@ -542,6 +546,8 @@ body {
     display: flex;
     align-items: center;
     padding-bottom: 25px;
+    transition: 0.5s;
+
 }
 
 .about-content-lists li span {
@@ -780,11 +786,18 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transition: 0.5s;
+
 }
 
 .funfact-count h2 {
     font-weight: bold;
     font-family: "Playpen Sans", cursive;
+
+}
+
+.box-1 {
+    transition: 0.5s;
 
 }
 
@@ -797,10 +810,13 @@ body {
 .box-2 .funfact-count {
     background-color: #F6593A;
     color: #fff;
+
 }
 
 .box-3 {
     color: #fff;
+    transition: 0.5s;
+
 }
 
 .box-3 .funfact-count {
@@ -864,6 +880,8 @@ body {
 .testimonial-two-title h2 {
     color: var(--color-secondary-two);
     padding-bottom: 60px;
+    transition: 0.5s;
+
 }
 
 .testimonial-two-title h2 span {
@@ -882,6 +900,8 @@ body {
     position: relative;
     border-radius: 20px;
     cursor: pointer;
+    transition: 0.5s;
+
 }
 
 .testimonial-two_item-shape {
@@ -928,6 +948,8 @@ body {
     bottom: -40px;
     left: 30px;
     color: var(--color-white);
+    transition: 0.5s;
+
 }
 
 .testimonial-two_image {
@@ -971,6 +993,8 @@ body {
 .testimonial-two_client-name {
     margin: 0;
     margin-top: -15px;
+    transition: 0.5s;
+
 }
 
 .testimonial-two_client-title {
@@ -1034,6 +1058,8 @@ body {
 
 .programs-two-heading-title h2 {
     color: var(--color-secondary-two);
+    transition: 0.5s;
+
 }
 
 .programs-two-heading-title span {
@@ -1084,6 +1110,7 @@ body {
     position: absolute;
     background-color: var(--color-secondary);
     width: 100%;
+    padding: 10px 20px 0px 20px;
     height: 100%;
     top: 0;
     opacity: 0.93;
@@ -1265,32 +1292,65 @@ body {
     color: #354745;
     font-weight: bold;
     padding: 0 0 170px 0;
+    transition: 0.5s;
+
 }
 
 .teacher-cart {
     width: 100%;
-    height: auto;
+    height: 384px;
     border-radius: 20px;
-    border-width: 3px;
-    border: 0.873px solid var(--color-line);
+    border: 1px solid var(--color-line);
     background: var(--color-white);
     display: flex;
     align-items: center;
     justify-content: center;
     transition: 0.5s;
     cursor: pointer;
+    position: relative;
+
 }
 
-.teacher-details {
-    margin-bottom: 50px;
-    margin-top: -95px;
+.teacher-ovarlay {
+    position: absolute;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.teacher-overlaytop {
+    height: 0;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-primary);
+}
+
+.teacher-cart:hover .teacher-overlaytop {
+    height: 100%;
+    bottom: 0;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-radius: 10px;
+
+}
+
+.teacher-img {
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translatex(-50%);
 }
 
 .teacher-intro {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    padding-top: 200px;
+    z-index: 3;
+    transition: 0.5s;
 }
 
 .teacher-intro h3 {
@@ -1326,13 +1386,12 @@ body {
     color: #F6593A;
 }
 
-.teacher-cart:hover {
-    background-color: #F6593A;
-    color: #fff;
-}
-
 .teacher-cart:hover .teacher-social a {
     background-color: #fff;
+}
+
+.teacher-cart:hover .teacher-intro {
+    color: #fff;
 }
 
 /*============ Gallery-two ============*/
@@ -1430,6 +1489,8 @@ body {
 
 .event-heading-title .event-hadding {
     color: #1F1E44;
+    transition: 0.5s;
+
 }
 
 .event-wrapper {
@@ -1501,12 +1562,12 @@ body {
 
 
 }
-
-.event-desc-title {
-    font-size: 24px;
-    font-weight: bold;
-    color: #1F1E44;
-    font-family: "Playpen Sans", cursive;
+.event-desc-title{
+   font-weight: bold;
+}
+.event-desc-two .event-desc-title {
+    font-size: 20px;
+    padding-top: 20px;
 }
 
 .event-desc-list {
@@ -1525,8 +1586,10 @@ body {
     margin-right: 10px;
 }
 
-.event-desc-two {
-    padding-left: 30px;
+.event-wrapper-two {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
 }
 
 .event-item {
@@ -1536,8 +1599,12 @@ body {
     width: 100%;
     height: 250px;
     background-color: #fff;
-    border-radius: 0px 20px 20px 0;
-    margin-bottom: 30px;
+    border-radius: 20px;
+
+}
+
+.event-desc-two {
+    padding-left: 30px;
 }
 
 .event-two-sub-title {
@@ -1623,6 +1690,8 @@ body {
     font-size: 40px;
     color: #1F1E44;
     font-weight: bold;
+    transition: 0.5s;
+
 }
 
 .blog-cart {

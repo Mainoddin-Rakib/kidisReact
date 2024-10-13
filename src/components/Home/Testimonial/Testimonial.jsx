@@ -24,7 +24,7 @@ const Testimonial = ({ testimonials }) => {
                     <div className="row">
                         {
                             testimonials?.map((Testimonial, index) => (
-                                <div className="col-lg-4" key={index}>
+                                <div className="col-lg-4 col-md-6" key={index}>
                                     <div className="testimonial-two_item">
                                         <div className="testimonial-two_item-shape"></div>
                                         <div className="testimonial-two_item-shape-2">

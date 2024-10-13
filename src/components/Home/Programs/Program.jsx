@@ -13,7 +13,7 @@ const Program = ({ programs }) => {
                 </div>
                 <div className="container">
                     <div className="row align-items-center ">
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 col-md-12">
                             <div className="programs-two_wrapper-one">
                                 <div className="section-title programs-two-heading-title">
                                     <h4 className="">
@@ -40,7 +40,7 @@ const Program = ({ programs }) => {
                                 <a href="" className='kidish-btn'><span>Get Started</span></a>
                             </div>
                         </div>
-                        <div className="col-lg-6 px-2">
+                        <div className="col-lg-6 col-md-12">
                             <div className="programs-two_wrapper-two">
                                 {
                                     programs?.map((program, index) => (

@@ -16,7 +16,7 @@ export const programsData = [
     },
     {
         "image": programImg2,
-        "title": "Toddler",
+        "title": "Preschool",
         "dsc": "There are many variations free of passages of ties Loriem Ipsum available,",
         "babyYearsDsc": "1-3 year",
         "class": "contant-2",
@@ -25,7 +25,7 @@ export const programsData = [
     },
     {
         "image": programImg3,
-        "title": "Toddler",
+        "title": "Kindergarten",
         "dsc": "There are many variations free of passages of ties Loriem Ipsum available,",
         "babyYearsDsc": "1-3 year",
         "class": "contant-3",
@@ -34,7 +34,7 @@ export const programsData = [
     },
     {
         "image": programImg4,
-        "title": "Toddler",
+        "title": "Flex-Care",
         "dsc": "There are many variations free of passages of ties Loriem Ipsum available,",
         "babyYearsDsc": "1-3 year",
         "class": "contant-4",

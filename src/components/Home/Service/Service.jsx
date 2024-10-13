@@ -7,7 +7,7 @@ const Service = ({ services }) => {
                 <div className="row">
                     {
                         services?.map((service, index) => (
-                            <div className="col-lg-3" key={index}>
+                            <div className="col-lg-3 col-md-6" key={index}>
                                 <div className={`service-cart-wrapper`}>
                                     <img src={service?.image} alt="" />
                                     <div className={`service-cart-shape ${service?.class}`}>

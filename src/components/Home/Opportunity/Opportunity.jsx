@@ -40,7 +40,7 @@ const Opportunity = ({ opportunitis }) => {
                         <div className="row">
                             {
                                 opportunitis?.map((Opportunity, index) => (
-                                    <div className="col-lg-4" key={index}>
+                                    <div className="col-lg-4 col-md-6" key={index}>
                                         <div className="oportunity-item">
                                             <div className="oportunity-content">
                                                 <div className="oportunity-content-img">
@@ -59,7 +59,7 @@ const Opportunity = ({ opportunitis }) => {
                     </div>
                     <div className="funfact-wrapper">
                         <div className="funfact-countdown-items">
-                            <div className="funfact-box-1">
+                            <div className="funfact-box-1 box-1">
                                 <div className="funfact-count">
                                     <h2>40k</h2>
                                     <p>Student Enrolled</p>

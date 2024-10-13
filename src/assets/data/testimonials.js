@@ -15,10 +15,10 @@ export const testimonialData=[
         "childName":"Smith’s Father",
         "dsc":"There are many variations free of passages of tiesLoriem Ipsum manyavailable, but the majority"
     },
-    {
-        "image":TestimonialImg3,
-        "name":"Floyd Miles",
-        "childName":"Smith’s Mother",
-        "dsc":"There are many variations free of passages of tiesLoriem Ipsum manyavailable, but the majority"
-    },
+    // {
+    //     "image":TestimonialImg3,
+    //     "name":"Floyd Miles",
+    //     "childName":"Smith’s Mother",
+    //     "dsc":"There are many variations free of passages of tiesLoriem Ipsum manyavailable, but the majority"
+    // },
 ]

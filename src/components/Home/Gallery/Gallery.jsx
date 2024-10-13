@@ -10,7 +10,7 @@ const Gallery = () => {
             <section className="gallery-two">
                 <div className="gallery-two-wrapper">
                     <div className="gallery-two-images">
-                        <div className="gallery-two-img">
+                       <div className="gallery-two-img">
                             <a href="">
                                 <img src={galleryImg1} alt="" />
                                 <div className="gallery-two-img-overlay gallery-two-overlaytop">+</div>
@@ -34,6 +34,7 @@ const Gallery = () => {
                                 <div className="gallery-two-img-overlay gallery-two-overlaytop">+</div>
                             </a>
                         </div>
+                 
                     </div>
                 </div>
             </section>

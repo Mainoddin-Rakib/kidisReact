@@ -4,6 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import './assets/css/bootstrap.min.css'
 import './assets/css/darkTheme.css'
+import './assets/css/responsive.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

@@ -16,7 +16,7 @@ const About = () => {
             <div className="container">
                 <div className="about-wrapper">
                     <div className="row">
-                        <div className="col-lg-5">
+                        <div className="col-lg-5 col-md-12">
                             <div className="about-image">
                                 <div className="about-image-one">
                                     <img src={about1} alt="" />
@@ -30,7 +30,7 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-7">
+                        <div className="col-lg-7 col-md-12">
                             <div className="about-content">
                                 <div className="about-title">
                                     <h4>

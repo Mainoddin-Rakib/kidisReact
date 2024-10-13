@@ -12,8 +12,6 @@
 
 
 
-
-
 /* service css */
 
 
@@ -29,6 +27,20 @@
     transition: 0.5s;
 }
 
+.dark .about-title h2 {
+    color: var(--color-white);
+    transition: 0.5s;
+
+}
+
+.dark .about-title p {
+    color: var(--color-grey);
+}
+
+.dark .about-content-lists li {
+    color: var(--color-white);
+    transition: 0.5s;
+}
 
 /* opportunity */
 
@@ -40,11 +52,58 @@
     transition: 0.5s;
 }
 
+.dark .funfact-box-1 {
+    background-color: #0E0919;
+    transition: 0.5s;
+
+}
+
+.dark .box-1 .funfact-count {
+    background-color: #0E0919;
+    color: var(--color-white);
+    transition: 0.5s;
+
+
+}
+
+.dark .box-3 .funfact-count {
+    background-color: #0E0919;
+    color: var(--color-white);
+    transition: 0.5s;
+
+}
+
 /* testimonial section*/
 
 .dark .testimonial-two {
     background-color: #0E0919;
     transition: 0.5s;
+}
+
+.dark .testimonial-two-title h2 {
+    color: var(--color-white);
+    transition: 0.5s;
+}
+
+.dark .testimonial-two_item {
+    background: #181028;
+    transition: 0.5s;
+
+}
+
+.dark .testimonial-two_item-shape-2 {
+    position: absolute;
+    bottom: -40px;
+    left: 30px;
+    color: #181028;
+    transition: 0.5s;
+
+}
+
+.dark .testimonial-two_client-name {
+    color: var(--color-white);
+    transition: 0.5s;
+
 }
 
 /*============ Programs-two ============*/
@@ -55,6 +114,11 @@
     transition: 0.5s;
 }
 
+.dark .programs-two-heading-title h2 {
+    color: var(--color-white);
+    transition: 0.5s;
+
+}
 
 /*============ Explore-two ============*/
 
@@ -73,7 +137,23 @@
     background-color: #0E0919;
     border-bottom: 1px solid #1F1E44;
     transition: 0.5s;
+}
 
+.dark .teacher-heading-title .teacher-hadding {
+    color: var(--color-white);
+    transition: 0.5s;
+}
+
+.dark .teacher-cart {
+    border: none;
+    background: #181028;
+    color: #fff;
+    transition: 0.5s;
+
+}
+
+.dark .teacher-social a {
+    background-color: var(--color-white);
 
 }
 
@@ -93,8 +173,20 @@
 
 }
 
+.dark .event-heading-title .event-hadding {
+    color: var(--color-white);
+    transition: 0.5s;
+}
+
 /* blog */
+
 .dark .blog {
     background-color: #0E0919;
     transition: 0.5s;
+}
+
+.dark .blog-heading-title .blog-title {
+    color: var(--color-white);
+    transition: 0.5s;
+
 }

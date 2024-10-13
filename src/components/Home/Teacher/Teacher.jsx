@@ -37,9 +37,9 @@ const Teacher = ({ teachers }) => {
                     <div className="row">
                         {
                             teachers?.map((teacher, index) => (
-                                <div className="col-lg-4 col-md-12" key={index}>
+                                <div className="col-lg-4 col-md-6" key={index}>
                                     <div className="teacher-cart">
-                                        <div className="teacher-details">
+                                    <div class="teacher-ovarlay teacher-overlaytop"></div>
                                             <div className="teacher-img">
                                                 <img src={teacher?.image} alt="" />
                                             </div>
@@ -77,8 +77,7 @@ const Teacher = ({ teachers }) => {
                                                         </svg>
                                                     </a>
                                                 </div>
-                                            </div>
-                                        </div>
+                                            </div>                          
                                     </div>
                                 </div>
                             ))
